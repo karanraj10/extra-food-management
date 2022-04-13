@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/signup_title_text"
+
+            style="@style/title_text"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="30dp"
+            />
+
+        <RadioGroup
+            android:layout_marginTop="40dp"
+            android:layout_marginStart="30dp"
+            android:orientation="horizontal"
+            android:id="@+id/user_type_radio_group_Signup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:checked="true"
+                android:id="@+id/customer_user_type"
+                android:layout_margin="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NGO"/>
+
+            <RadioButton
+                android:id="@+id/doctor_user_type"
+                android:layout_margin="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Donor"/>
+
+        </RadioGroup>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/name_layout_signup"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginTop="20dp"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/name_signup"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:inputType="text"
+
+                android:hint="@string/name_hint_signup"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/email_layout_signup"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginTop="20dp"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/email_signup"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:inputType="textEmailAddress"
+
+                android:hint="@string/email_hint_signup"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/mobile_layout_signup"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginTop="20dp"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/mobile_signup"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:inputType="number"
+
+                android:hint="@string/mobile_hint_signup"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/password_layout_signup"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginTop="20dp"
+
+            app:passwordToggleEnabled="true"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/password_signup"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:inputType="textPassword"
+
+                android:hint="@string/password_hint_signup"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/address_layout_signup"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginTop="20dp"
+            app:passwordToggleEnabled="true"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/address_signup"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:inputType="text"
+                android:lines="3"
+                android:hint="Address"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/city_layout_signup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginTop="20dp"
+            app:passwordToggleEnabled="true"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/city_signup"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:inputType="text"
+                android:hint="City"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/signup_button_signup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/signup_button_text_signup"
+
+            style="@style/login_button"/>
+
+        <TextView
+            android:id="@+id/login_link_signup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/login_link_signup"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginStart="30dp"
+            style="@style/normal_text"
+            />
+
+    </LinearLayout>
+
+
+</ScrollView>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ngo.AcceptRequestActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Accept Request"
+        style="@style/title_text"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text="Select Area"
+        style="@style/normal_text"/>
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:id="@+id/acceptrequest_area_spinner"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/acceptrequest_layout_vcontact"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="20dp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/acceptrequest_vcontact"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="number"
+
+            android:hint="Enter Volunteer Contact"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/login_button"
+        android:layout_margin="20dp"
+        android:text="Accept"
+        android:id="@+id/acceptrequest_acceptButton"/>
+
+
+</LinearLayout>

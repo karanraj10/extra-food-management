@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/donorNameTextView"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+
+        android:text="Karan Raj"
+        style="@style/normal_text"/>
+
+    <TextView
+        android:id="@+id/donorMobileTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+
+        android:layout_below="@id/donorNameTextView"
+
+        android:text="rajkaran5478@gmail.com"
+        style="@style/normal_text"/>
+
+    <TextView
+        android:id="@+id/donorAddressTextView"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/donorMobileTextView"
+
+        android:text="Karan Raj"
+        style="@style/normal_text"/>
+
+    <TextView
+        android:id="@+id/donorCityTextView"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/donorAddressTextView"
+
+        android:text="Karan Raj"
+        style="@style/normal_text"/>
+
+    <TextView
+        android:id="@+id/donorFoodDetailsTextView"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/donorCityTextView"
+
+        android:text="Karan Raj"
+        style="@style/normal_text"/>
+
+    />
+
+
+    <Button
+        android:layout_alignParentRight="true"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/donoraccept"
+        android:text="✓"
+        style="@style/login_button"
+        android:background="#00AA00"
+        />
+
+    <Button
+        android:layout_alignRight="@id/donoraccept"
+        android:id="@+id/donorreject"
+        android:text="✖"
+        style="@style/login_button"
+        android:background="#AA0000"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="59dp" />
+
+</RelativeLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home_menu_ngo"
+        android:title="Home"
+        android:icon="@drawable/home_menu_icon"
+        />
+    <item
+        android:id="@+id/request_menu_ngo"
+        android:title="Requests"
+        android:icon="@drawable/ic_request"
+        />
+    <item
+        android:id="@+id/image_menu_ngo"
+        android:title="Gallery"
+        android:icon="@drawable/ic_content"
+        />
+
+    <item
+        android:id="@+id/report_menu_ngo"
+        android:title="Report"
+        android:icon="@drawable/ic_request"
+        />
+
+    <item
+        android:id="@+id/account_menu_ngo"
+        android:title="Account"
+        android:icon="@drawable/account_menu_icon"
+        />
+
+</menu>

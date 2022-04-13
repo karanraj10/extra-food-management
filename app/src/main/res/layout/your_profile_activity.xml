@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".login.YourProfileActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/title_text"
+        android:text="Your Profile"
+        android:layout_margin="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/normal_text"
+        android:text="Name : "
+        android:layout_margin="20dp"/>
+
+    <TextView
+        android:id="@+id/yourprofileName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/normal_text_16"
+        android:text="Tumhara Naam"
+        android:layout_marginLeft="30dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/normal_text"
+        android:text="Email : "
+        android:layout_margin="20dp"/>
+
+    <TextView
+        android:id="@+id/yourprofileEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/normal_text_16"
+        android:text="Tumhara Email"
+        android:layout_marginLeft="30dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/normal_text"
+        android:text="Account Type : "
+        android:layout_margin="20dp"/>
+
+    <TextView
+        android:id="@+id/yourprofileUsertype"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/normal_text_16"
+        android:text="Tumhara Admin"
+        android:layout_marginLeft="30dp"/>
+
+</LinearLayout>

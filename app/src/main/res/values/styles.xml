@@ -1,0 +1,42 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="splash_text">
+        <item name="android:fontFamily">@font/galada</item>
+        <item name="android:textSize">40sp</item>
+        <item name="android:textColor">@color/splash_color</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:lineHeight" tools:targetApi="p">50dp</item>
+    </style>
+
+    <style name="title_text">
+        <item name="android:fontFamily">sans-serif-condensed-light</item>
+        <item name="android:textSize">40sp</item>
+        <item name="android:textColor">@color/black_color</item>
+    </style>
+
+    <style name="normal_text">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/black_color</item>
+    </style>
+
+    <style name="normal_text_16">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/black_color</item>
+    </style>
+
+
+    <style name="login_button">
+        <item name="android:background">@drawable/button_background</item>
+        <item name="android:textColor">@color/white_color</item>
+        <item name="android:fontFamily">sans-serif-condensed-light </item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+</resources>

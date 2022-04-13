@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+    android:id="@+id/ngoNameTextView"
+
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+
+    android:layout_marginStart="10dp"
+    android:layout_marginTop="10dp"
+
+    android:text="Karan Raj"
+    style="@style/normal_text"/>
+
+    <TextView
+        android:id="@+id/ngoEmailTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+
+        android:layout_below="@id/ngoNameTextView"
+
+        android:text="rajkaran5478@gmail.com"
+        style="@style/normal_text"/>
+
+    <TextView
+        android:id="@+id/ngoMobileTextView"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/ngoEmailTextView"
+
+        android:text="Karan Raj"
+        style="@style/normal_text"/>
+
+    <TextView
+        android:id="@+id/ngoAddressTextView"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/ngoMobileTextView"
+
+        android:text="Karan Raj"
+        style="@style/normal_text"/>
+
+    <TextView
+        android:id="@+id/ngoCityTextView"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/ngoAddressTextView"
+
+        android:text="Karan Raj"
+        style="@style/normal_text"/>
+
+
+    <Button
+        android:layout_below="@id/ngoCityTextView"
+        android:id="@+id/ngoSelectButton"
+        android:layout_margin="15dp"
+        android:layout_alignParentLeft="true"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        style="@style/login_button"
+        android:text="Request" />
+
+    <Button
+        android:layout_below="@id/ngoCityTextView"
+        android:id="@+id/ngoGalleryButton"
+        android:layout_margin="15dp"
+        android:layout_alignParentRight="true"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        style="@style/login_button"
+        android:text="Gallery" />
+
+
+</RelativeLayout>

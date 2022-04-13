@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/login_background">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter OTP"
+
+        style="@style/title_text"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="100dp"
+        />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/otp_layout_signup"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="50dp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/otp_signup"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="number"
+
+            android:hint="Otp"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/register_button_signup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="20dp"
+        android:text="Register"
+
+        style="@style/login_button"/>
+
+</LinearLayout>
